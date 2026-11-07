@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel — Portafolio Web</title>
+  <!-- Tipografía amigable, clara y profesional -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       BARRA DE NAVEGACIÓN
+       ========================================== -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-brand">danielica<span>.work</span></a>
+
+      <nav class="nav-menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre Mí</a>
+        <a href="#habilidades-fortalezas">Habilidades & Fortalezas</a>
+        <a href="#contacto-solicitudes" class="nav-cta-link">Contacto & Solicitudes</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       SECCIÓN 1: HERO / INICIO (ESTILO JUNIOR CLÁSICO)
+       ========================================== -->
+  <section id="inicio" class="hero-section">
+    <div class="hero-content">
+      <span class="hero-badge">Portafolio Web</span>
+      <h1 class="hero-title">Daniel Campos  Proyectos & Desarrollo</h1>
+      <p class="hero-subtitle">Analista y desarrollador de sistemas Junior</p>
+      
+      <div class="hero-actions">
+        <a href="#habilidades-fortalezas" class="btn btn-primary">Ver Habilidades</a>
+        <a href="#contacto-solicitudes" class="btn btn-secondary">Contactar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SECCIÓN 2: SOBRE MÍ & FOTO & FRASE MOTIVACIONAL
+       ========================================== -->
+  <section id="sobre-mi" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Acerca de mí</h2>
+      </div>
+
+      <!-- Frase Motivacional -->
+      <div class="quote-card">
+        <p class="motivational-quote">
+          “"Cada error y cada desafío técnico son solo el puente entre lo que sé hoy y lo que sabré mañana."”
+        </p>
+      </div>
+
+      <div class="about-card">
+        <!-- Lugar para poner foto de la persona -->
+        <div class="about-photo-wrapper">
+          <div class="photo-frame">
+            <img id="user-photo"src="daniel.jpg" alt="Foto de Daniel" class="profile-img">
+          </div>
+        </div>
+
+        <!-- Acerca de la persona (Tono Junior entusiasta y honesto) -->
+        <div class="about-text-wrapper">
+          <h3 class="about-greeting">Daniel Isaac Campos Andrade</h3>
+          <p class="about-text">
+          Estudiante en formación en el área de Análisis y Diseño de Sistemas, enfocado en el desarrollo de mis primeros proyectos y la construcción de un portafolio práctico. Me mantengo en constante aprendizaje y perfeccionamiento técnico, destacando por mi capacidad de adaptación y total disposición para asumir retos laborales que potencien mi crecimiento en el sector de tegnologia de la información.
+          </p>
+          <p class="about-text">
+            Me encuentro en formación, practicando con proyectos practicos, actividades universitarias, las cuales me ayudan aprender nuevas herramientas. Mi objetivo es desenvolverme social y seguridad técnica, participando activamente en la comunicación de ideas y sustentando proyectos propios con fundamentos sólidos, para aasumir progresivamente desafíos de mayor escala y complejidad, ya sea para potenciar los resultados de la empresa o impulsar iniciativas independientes, adaptándome con confianza a cualquier requerimiento.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SECCIÓN 3: HABILIDADES Y FORTALEZAS EN LA MISMA PÁGINA
+       (DISEÑO EXACTO DEL BOCETO: 2 COLUMNAS, CAJAS Y LÍNEAS)
+       ========================================== -->
+  <section id="habilidades-fortalezas" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Fortalezas & oportunidades </h2>
+      </div>
+
+      <div class="dual-checklist-grid">
+        
+        <!-- COLUMNA 1: 4 HABILIDADES TÉCNICAS JUNIOR -->
+        <div class="checklist-column">
+          <!-- Caja de encabezado rectangular -->
+          <div class="checklist-box-header">
+            <h3>Habilidades Técnicas</h3>
+          </div>
+
+          <!-- 4 ítems con casillas cuadradas y líneas horizontales continuas -->
+          <div class="checklist-items">
+            
+            <div class="checklist-row">
+              <div class="checklist-info">
+                <span class="item-name">HTML5 básico</span>
+                <span class="item-desc">Estructuración limpia, ordenada y buenas prácticas de accesibilidad.</span>
+              </div>
+              <span class="custom-checkbox" aria-hidden="true"></span>
+            </div>
+
+            <div class="checklist-row">
+              <div class="checklist-info">
+                <span class="item-name">CSS Básico</span>
+                <span class="item-desc">Estilizado de Componentes.</span>
+              </div>
+              <span class="custom-checkbox" aria-hidden="true"></span>
+            </div>
+
+            <div class="checklist-row">
+              <div class="checklist-info">
+                <span class="item-name">JavaScript Básico</span>
+                <span class="item-desc">Manipulación del DOM, lógica de eventos y validación de formularios.</span>
+              </div>
+              <span class="custom-checkbox" aria-hidden="true"></span>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- COLUMNA 2: 4 OPORTUNIDADES JUNIOR -->
+        <div class="checklist-column">
+          <!-- Caja de encabezado rectangular -->
+          <div class="checklist-box-header">
+            <h3>Oportunidades</h3>
+          </div>
+
+          <!-- 4 ítems con casillas cuadradas y líneas horizontales continuas -->
+          <div class="checklist-items">
+            
+            <div class="checklist-row">
+              <div class="checklist-info">
+                <span class="item-name">Aprendizaje Continuo & Adaptabilidad</span>
+                <span class="item-desc">Apertura para incorporar nuevas herramientas tecnológicas y capacidad de asimilar feedback constructivo para mejorar constantemente.</span>
+              </div>
+              <span class="custom-checkbox" aria-hidden="true"></span>
+            </div>
+
+            <div class="checklist-row">
+              <div class="checklist-info">
+                <span class="item-name">Pensamiento Analítico & Lógica</span>
+                <span class="item-desc">Habilidad para desglosar problemas complejos, estructurar procesos y aplicar la lógica en el desarrollo de software.</span>
+              </div>
+              <span class="custom-checkbox" aria-hidden="true"></span>
+            </div>
+
+            <div class="checklist-row">
+              <div class="checklist-info">
+                <span class="item-name">Responsabilidad & Puntualidad</span>
+                <span class="item-desc">Compromiso firme con los plazos acordados y la calidad del código.</span>
+              </div>
+              <span class="custom-checkbox" aria-hidden="true"></span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SECCIÓN 4: CONTACTO & SOLICITUDES EN UNA SOLA SECCIÓN
+       ========================================== -->
+  <section id="contacto-solicitudes" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Contacto & Solicitudes</h2>
+        <p class="section-subtitle"></p>
+      </div>
+
+      <div class="contact-requests-grid">
+        
+        <!-- COLUMNA 1: CANALES DIRECTOS -->
+        <div class="contact-panel">
+          <div class="panel-box-header">
+            <h3>Canales de Contacto</h3>
+          </div>
+
+          <div class="channels-list">
+            
+            <a href="mailto:danielicawork@gmail.com" class="channel-item">
+              <div class="channel-details">
+                <span class="channel-type">Correo Electrónico</span>
+                <span class="channel-link">danielicawork@gmail.com</span>
+              </div>
+              <span class="channel-icon">→</span>
+            </a>
+
+            <a href="https://linkedin.com/in/daniel-junior" target="_blank" rel="noopener noreferrer" class="channel-item">
+              <div class="channel-details">
+                <span class="channel-type">LinkedIn</span>
+                <span class="channel-link">linkedin.com/in/daniel-junior</span>
+              </div>
+              <span class="channel-icon">→</span>
+            </a>
+
+            <a href="https://github.com/daniel-code" target="_blank" rel="noopener noreferrer" class="channel-item">
+              <div class="channel-details">
+                <span class="channel-type">GitHub</span>
+                <span class="channel-link">github.com/daniel-code</span>
+              </div>
+              <span class="channel-icon">→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- COLUMNA 2: FORMULARIO DE SOLICITUDES -->
+        <div class="requests-panel">
+          <div class="panel-box-header">
+            <h3>Envíame un Mensaje</h3>
+          </div>
+
+          <form id="client-request-form" class="junior-form">
+            
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="client-name">Tu Nombre o Empresa *</label>
+                <input type="text" id="client-name" name="client_name" 
+
+               <div class="form-group">
+                <label for="client-email">Tu Correo Electrónico *</label>
+                <input type="email" id="client-email" name="client_email" required>
+               </div>
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="client-phone">Teléfono / WhatsApp</label>
+                <input type="tel" id="client-phone" name="client_phone" >
+              </div>
+              <div class="form-group">
+                <label for="service-type">Tipo de Solicitud *</label>
+                <select id="service-type" name="service_type" required>
+                  <option value="" disabled selected>Selecciona una opción...</option>
+                  <option value="Creación de Sitio Web">Creación de Sitio Web</option>
+                  <option value="Maquetación / Diseño Web">Maquetación / Diseño Web</option>
+                  <option value="Oportunidad Laboral / Pasantía">Oportunidad Laboral / Pasantía</option>
+                  <option value="Proyecto Freelance">Proyecto Freelance</option>
+                  <option value="Otro Motivo">Otro Motivo</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Mensaje / Detalle del Proyecto *</label>
+              <textarea id="message" name="message" rows="3" required></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary btn-submit">
+                Enviar Mensaje a mi Correo →
+              </button>
+            </div>
+
+            <div id="form-feedback" class="form-feedback" style="display: none;"></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       PIE DE PÁGINA
+       ========================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>Daniel © 2026 • Portafolio Web </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
